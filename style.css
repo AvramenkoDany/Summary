@@ -26,9 +26,11 @@ body{
     align-items: center;
     z-index: 9;
     background: #1a1a1a;
+   
 }
 
 .link-group{
+    flex-wrap:wrap;
     list-style: none;
     display: flex;
 }
@@ -345,7 +347,7 @@ body{
     @media (max-width: 600px) {
     
         .navbar{
-            
+            width:100%;
             font-size:40px;
         }
         .home-section{
@@ -438,11 +440,6 @@ body{
             width: px;
             padding: 55px;
         }
-
-    .contact-form{
-       
-
-    }
     
     .map{
         width: 350px;
@@ -463,10 +460,6 @@ body{
         margin: 107px;
         
     } 
-     
-    .contact__row{
-        
-    }
      
     .text{
         max-width:360px;
